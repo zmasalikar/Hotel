@@ -5,3 +5,5 @@ frontend/build/
 backend/node_modules/
 npm-debug.log
 .DS_Store
+frontend/.env
+/backend/uploads/
