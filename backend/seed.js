@@ -196,8 +196,7 @@ async function seed() {
     console.error('Failed creating past booking:', e.message || e);
   }
 
-  // Create one future booking to block availability for that room
-  try {
+ try {
     const roomForFuture = createdRooms[1]; // Standard Room
     const futureCheckIn = new Date();
     futureCheckIn.setDate(futureCheckIn.getDate() + 7);
