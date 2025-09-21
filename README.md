@@ -32,6 +32,16 @@ Features included:
 - Frontend: Netlify (build command `npm run build`, publish `frontend/build`)
 - Backend: Render (or Heroku) — set environment variables MONGO_URI, JWT_SECRET, STRIPE_SECRET_KEY
 
+##Credentials to login
+- test@test.com 
+  Test
+
+- admin@example.com
+  Admin@1234
+
+- Hotel@test.com
+  12345678 
+
 ## Notes
 - This scaffold is for learning and the assessment — further security/hardening needed for production.
 - Do not include any company names in the codebase (per terms).
